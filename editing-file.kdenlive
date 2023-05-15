@@ -745,54 +745,13 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain0" out="00:01:23.767">
-  <property name="length">2514</property>
-  <property name="eof">pause</property>
-  <property name="resource">Bricalcu1.m4a</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:clip_type">1</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">12</property>
-  <property name="kdenlive:file_size">2738389</property>
-  <property name="kdenlive:file_hash">5e01b0e2db0bb0d3fb3b550b77d8cf93</property>
-  <property name="kdenlive:audio_max0">199</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">1</property>
-  <property name="meta.media.0.codec.name">aac</property>
-  <property name="meta.media.0.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.0.codec.bit_rate">255999</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2023-05-15T14:55:43.000000Z</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">SoundHandle</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">3gp4</property>
-  <property name="meta.attr.minor_version.markup">0</property>
-  <property name="meta.attr.compatible_brands.markup">isom3gp4</property>
-  <property name="meta.attr.creation_time.markup">2023-05-15T14:55:43.000000Z</property>
-  <property name="meta.attr.com.android.version.markup">11</property>
-  <property name="xml">was here</property>
-  <property name="mute_on_pause">0</property>
-  <property name="set.test_audio">0</property>
-  <property name="set.test_image">1</property>
- </chain>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:00:43.233"/>
-  <entry producer="chain0" in="00:00:37.833" out="00:01:23.767">
-   <property name="kdenlive:id">12</property>
-  </entry>
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:audio_track">1</property>
  </playlist>
- <tractor id="tractor1" in="00:00:00.000" out="00:01:29.167">
+ <tractor id="tractor1" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -917,7 +876,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <chain id="chain1" out="00:01:34.467">
+ <chain id="chain0" out="00:01:34.467">
   <property name="length">2835</property>
   <property name="eof">pause</property>
   <property name="resource">/home/yasashibp/.var/app/org.kde.kdenlive/cache/kdenlive/proxy/57254037b946be68f0553e379e743764.mpg</property>
@@ -1044,7 +1003,7 @@
   <entry producer="producer4" in="00:00:00.000" out="00:00:34.800">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="chain1" in="00:00:10.933" out="00:01:34.467">
+  <entry producer="chain0" in="00:00:10.933" out="00:01:34.467">
    <property name="kdenlive:id">5</property>
   </entry>
  </playlist>
@@ -1058,7 +1017,7 @@
   <track hide="audio" producer="playlist4"/>
   <track hide="audio" producer="playlist5"/>
  </tractor>
- <chain id="chain2" out="00:03:33.233">
+ <chain id="chain1" out="00:03:33.233">
   <property name="length">6398</property>
   <property name="eof">pause</property>
   <property name="resource">/home/yasashibp/.var/app/org.kde.kdenlive/cache/kdenlive/proxy/51e3b756610e67e7a76a0ba215889601.mpg</property>
@@ -1160,7 +1119,7 @@
  </chain>
  <playlist id="playlist6">
   <blank length="00:00:17.433"/>
-  <entry producer="chain2" in="00:00:00.000" out="00:03:33.233">
+  <entry producer="chain1" in="00:00:00.000" out="00:03:33.233">
    <property name="kdenlive:id">11</property>
   </entry>
  </playlist>
@@ -1197,7 +1156,7 @@
 </property>
   <property name="kdenlive:sequenceproperties.audioTarget">-1</property>
   <property name="kdenlive:sequenceproperties.videoTarget">2</property>
-  <property name="kdenlive:sequenceproperties.activeTrack">3</property>
+  <property name="kdenlive:sequenceproperties.activeTrack">1</property>
   <property name="kdenlive:sequenceproperties.hasAudio">1</property>
   <property name="kdenlive:sequenceproperties.hasVideo">1</property>
   <property name="kdenlive:sequenceproperties.tracksCount">4</property>
@@ -1322,7 +1281,7 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <chain id="chain9" out="00:01:23.767">
+ <chain id="chain2" out="00:01:23.767">
   <property name="length">2514</property>
   <property name="eof">pause</property>
   <property name="resource">Bricalcu1.m4a</property>
@@ -1442,7 +1401,7 @@
   <entry producer="chain8" in="00:00:00.000" out="00:01:15.533"/>
   <entry producer="chain7" in="00:00:00.000" out="00:03:33.233"/>
   <entry producer="tractor4" in="00:00:00.000" out="00:01:29.000"/>
-  <entry producer="chain9" in="00:00:00.000" out="00:01:23.767"/>
+  <entry producer="chain2" in="00:00:00.000" out="00:01:23.767"/>
  </playlist>
  <tractor id="tractor5" in="00:00:00.000" out="00:03:50.700">
   <property name="kdenlive:projectTractor">1</property>
